@@ -318,13 +318,20 @@ flex-basis: calc((100% - 72px) / 4)
    color: #ffffff;
    margin-bottom: 16px;
  }
-.icon{
+.icons{
    display: flex;
    align-items: center;
    justify-content: center;
+   width: 264px;
    height: 112px;
    background-color: #f4f4fd;
    border-radius: 4px;
    border: 1px solid #8e8f99;
    margin-bottom: 8px;
+}
+.social{
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+   
 }
