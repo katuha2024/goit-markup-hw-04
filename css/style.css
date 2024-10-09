@@ -318,11 +318,10 @@ flex-basis: calc((100% - 72px) / 4)
    color: #ffffff;
    margin-bottom: 16px;
  }
-.icons{
+.icon-img{
    display: flex;
    align-items: center;
    justify-content: center;
-   width: 264px;
    height: 112px;
    background-color: #f4f4fd;
    border-radius: 4px;
@@ -333,5 +332,13 @@ flex-basis: calc((100% - 72px) / 4)
    display: flex;
    justify-content: center;
    gap: 24px;
-   
+
+}
+.social-icons{
+   fill: black;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding-left: 0;
 }
