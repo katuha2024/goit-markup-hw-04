@@ -116,6 +116,10 @@ a{
  .section-one{
    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/peopleoffice.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
    padding: 188px 0 188px 0;
  }
  .main-page{
