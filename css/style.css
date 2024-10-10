@@ -328,6 +328,9 @@ flex-basis: calc((100% - 72px) / 4)
    border: 1px solid #8e8f99;
    margin-bottom: 8px;
 }
+.icons{
+   fill: none;
+}
 .social{
    display: flex;
    justify-content: center;
