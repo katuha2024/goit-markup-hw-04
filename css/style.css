@@ -415,7 +415,7 @@ flex-basis: calc((100% - 72px) / 4)
    background-color: #31d0aa;
 }
 .social-icons{
-   fill: black;
+   fill: blck;
 }
 ul{
    list-style-type: none;
