@@ -418,6 +418,9 @@ flex-basis: calc((100% - 72px) / 4)
 .social-links-footer:focus{
    background-color: #31d0aa;
 }
+.footer-item{
+   transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   } 
 .social-icons{
    fill: black;
 }
