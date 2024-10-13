@@ -399,6 +399,11 @@ flex-basis: calc((100% - 72px) / 4)
 .social-item{
    width: 40px;
    height: 40px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2,1);
+}
+.social-item:hover,
+.social-item:focus{
+   background-color: #31d0aa;
 }
 .social-links-footer{
    width: 100%;
@@ -408,14 +413,13 @@ flex-basis: calc((100% - 72px) / 4)
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 1.2, 1);
 }
 .social-links-footer:hover,
 .social-links-footer:focus{
    background-color: #31d0aa;
 }
 .social-icons{
-   fill: blck;
+   fill: black;
 }
 ul{
    list-style-type: none;
