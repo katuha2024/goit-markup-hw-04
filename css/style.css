@@ -155,6 +155,9 @@ a{
  .button:hover{
    background-color:#404bbf;
  }
+ .button:focus{
+   background-color: #404bbf;
+ }
 .section-two{
     
     line-height: 1.2;
