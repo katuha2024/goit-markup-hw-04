@@ -313,7 +313,7 @@ flex-basis: calc((100% - 72px) / 4)
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
    color: #f4f4fd;
  }
- .profi-img-text:hover{
+ .profi-paragraf:hover{
    background-color: #4d5ae5;
    transform: translateY(0%);
  }
