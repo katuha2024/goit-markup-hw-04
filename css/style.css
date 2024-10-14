@@ -299,7 +299,7 @@ flex-basis: calc((100% - 72px) / 4)
    position: relative;
    overflow: hidden;
  }
- .profi-img-text{
+ .profi-paragraf{
    position: absolute;
    top: 0;
    font-size: 16px;
@@ -310,11 +310,12 @@ flex-basis: calc((100% - 72px) / 4)
    width: 100%;
    height: 100%;
    transform: translateY(100%);
-   transition: background-color 250ms,cubic-bezier(0.4, 0, 0.2, 1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
    color: #f4f4fd;
  }
  .profi-img-text:hover{
    background-color: #4d5ae5;
+   transform: translateY(0%);
  }
  .profi{
    padding: 32px 16px;
