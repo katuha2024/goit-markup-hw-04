@@ -190,6 +190,7 @@ a{
    background: #4d5ae5;
    text-align: center;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   margin: 0 auto;
  }
  .button:hover,
  .button:focus{
