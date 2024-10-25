@@ -90,15 +90,21 @@ a{
    gap: 40px;
  }
  .nav-list{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
    padding: 24px 0;
    display: block;
-   
    position: relative;
-   color:#404bbf;
+   color:#434455;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
- .nav-list::after{
-   content:"";
+ .current{
+   color: #404BBF;
+ }
+ .current::after{
+   content: "";
    width: 100%;
    position: absolute;
    left: 0;
@@ -106,8 +112,8 @@ a{
    height: 4px;
    background-color: #404bbf;
    border-radius: 2px;
-
  }
+
  .nav-item-menu{
     font-weight: 500;
     font-size: 16px;
@@ -155,7 +161,6 @@ a{
     background-size: cover;
     background-position: center;
    padding: 188px 0;
-   margin: 0 auto;
  }
 
  .section-one-title{
@@ -168,6 +173,7 @@ a{
    color: #fff;
    display: block;
    margin-bottom: 48px;
+   margin: 0 auto;
  }
  .button{
    display: block;
