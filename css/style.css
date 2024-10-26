@@ -193,7 +193,6 @@ a{
    text-align: center;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    margin: 0 auto;
-   margin-bottom: 188px;
  }
  .button:hover,
  .button:focus{
@@ -261,6 +260,7 @@ flex-basis: calc((100% - 72px) / 4)
    border-radius: 0px 0px 4px 4px;
    background-color: #ffffff;
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46,47,66,0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   margin-bottom: 8px;
 }
 .social-media-link{
    display: flex;
@@ -307,6 +307,7 @@ flex-basis: calc((100% - 72px) / 4)
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: ;
 }
 .portfolio{
    padding: 120px 0 120px 0;
@@ -382,6 +383,11 @@ flex-basis: calc((100% - 72px) / 4)
     color: #434455;
     margin-bottom: 16px;
  }
+ .profi-box{
+   margin-top: 32px;
+   margin-left: 16px;
+   margin-bottom: 64px;
+ }
  .footer{
     background-color: #2e2f42;
     padding-top: 100px;
@@ -450,10 +456,6 @@ flex-basis: calc((100% - 72px) / 4)
    width: 40px;
    height: 40px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2,1);
-}
-.social-item:hover,
-.social-item:focus{
-   background-color: #31d0aa;
 }
 .social-links-footer{
    width: 100%;
