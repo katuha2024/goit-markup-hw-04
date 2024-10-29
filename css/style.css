@@ -369,12 +369,12 @@ a {
 .portfolio-box-list:hover .profi-text-hidden {
   transform: translateY(0%);
 }
-.profi {
+.profi-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-title {
+.porofi-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -388,11 +388,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.profi-box {
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 64px;
 }
 .footer {
   background-color: #2e2f42;
