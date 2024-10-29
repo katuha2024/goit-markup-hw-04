@@ -296,7 +296,7 @@ flex-basis: calc((100% - 72px) / 4)
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     color: #2e2f42;
 }
 .our-team-text{
@@ -306,7 +306,7 @@ flex-basis: calc((100% - 72px) / 4)
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     
 }
 .portfolio{
@@ -381,12 +381,11 @@ flex-basis: calc((100% - 72px) / 4)
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 16px;
  }
  .profi-box{
-   margin-top: 32px;
-   margin-left: 16px;
-   margin-bottom: 64px;
+   padding-top: 32px;
+   padding-left:  16px;
+   padding-bottom:  64px;
  }
  .footer{
     background-color: #2e2f42;
